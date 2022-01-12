@@ -1,15 +1,37 @@
+@import "base/variables";
+
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.container {
-    max-width: 1140px;
-    margin: 0 auto;
+body {
+  font-family: "Geometria Regular", sans-serif;
 }
 
-.header {
-    background: url('../img/photo2.jpg') center center/cover no-repeat;
-    height: 100vh;
+.container-fluid {
+  padding-left: 40px;
+  padding-right: 40px;
 }
+
+a {
+  text-decoration: none;
+  color: $main-color;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+// libs
+@import "libs/fonts";
+
+// blocks
+@import "blocks/header";
+
+// base
