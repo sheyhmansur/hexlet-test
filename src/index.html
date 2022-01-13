@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
@@ -12,25 +12,52 @@
 </head>
 
 <body>
-    <header class="header">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-9 header__logo">
-                    <a href="#">Хекслет</a>
+    <div class="header-wrapper">
+        <header class="header">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-9 header__logo">
+                        <a href="#">Хекслет</a>
+                    </div>
+                    <nav class="col-3">
+                        <ul class="menu">
+                            <li class="menu__item"><a href="#" class="menu__item-link">О нас</a></li>
+                            <li class="menu__item"><a href="#" class="menu__item-link">Отзывы</a></li>
+                            <li class="menu__item"><a href="#" class="menu__item-link">Цены</a></li>
+                            <li class="menu__item"><a href="#" class="menu__item-link">Начать обучение</a></li>
+                        </ul>
+                    </nav>
+
                 </div>
-                <ul class="col-3 nav">
-                    <li class="nav__item"><a href="#" class="nav__item-link">О нас</a></li>
-                    <li class="nav__item"><a href="#" class="nav__item-link">Отзывы</a></li>
-                    <li class="nav__item"><a href="#" class="nav__item-link">Цены</a></li>
-                    <li class="nav__item"><a href="#" class="nav__item-link">Начать обучение</a></li>
-                </ul>
             </div>
-        </div>
-    </header>
+        </header>
+    </div>
 
     <main>
-        <section class=""></section>
-        <section class=""></section>
+        <section class="promo">
+            <div class="row promo__wrapper">
+                <div class="col-6 promo__image"></div>
+                <div class="col-6 promo__info">
+                    <h1 class="promo__title">Индивидуальное обучение программированию</h1>
+                    <div class="promo__subtitle">Освойте JavaScript, PHP, Python, Java, HTML и CSS с помощью наставника
+                    </div>
+                    <form class="promo__form" action="">
+                        <input type="email" placeholder="Электронная почта">
+                        <input type="tel" placeholder="Телефон">
+                        <input type="text" placeholder="Имя">
+                        <button class="promo__btn">Отправить заявку</button>
+                    </form>
+                    <div class='promo__policy'>
+                        Нажимая на кнопку, вы даете согласие на обработку персональных данных и соглашаетесь c
+                        <span>политикой конфиденциальности</span>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="">
+            Lorem
+        </section>
         <section class=""></section>
         <section class=""></section>
         <section class=""></section>
