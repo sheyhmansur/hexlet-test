@@ -1,0 +1,29 @@
+.about-us {
+  padding: 120px 0 120px 0;
+  &__descr {
+    padding-left: 200px;
+    font-size: 18px;
+    line-height: 1.55;
+  }
+  &__personally {
+    font-size: 32px;
+    line-height: 1.35;
+    max-width: 528px;
+    margin-top: 20px;
+    position: relative;
+    &::before {
+      position: absolute;
+      content: "";
+      top: -11px;
+      width: 240px;
+      height: 1px;
+      background-color: $second-color;
+    }
+  }
+  &__text {
+    padding-left: 200px;
+    font-size: 18px;
+    line-height: 1.55;
+    max-width: 750px;
+  }
+}
