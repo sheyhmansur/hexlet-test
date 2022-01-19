@@ -1,0 +1,56 @@
+.mentor {
+  padding: 90px 0 60px 0;
+  &__wrapper {
+    display: flex;
+  }
+  .title {
+    text-align: initial;
+  }
+  &__item {
+    margin-left: 185px;
+    max-width: 460px;
+  }
+  &__descr {
+    font-size: 18px;
+    margin-top: 20px;
+    line-height: 1.55;
+  }
+  &__image {
+    background-image: url("../img/mentor.jpg");
+    background-repeat: no-repeat;
+    max-width: 100%;
+    min-height: 550px;
+    background-size: contain;
+    margin-left: 50px;
+  }
+  &__info {
+    display: flex;
+    justify-content: center;
+  }
+  &__info-block {
+    max-width: 450px;
+    position: relative;
+    margin-left: 85px;
+    margin-right: -24px;
+    &:before {
+      content: "";
+      position: absolute;
+      width: 29px;
+      height: 29px;
+      top: 0;
+      left: -38px;
+      background-image: url("../img/checked.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+  }
+  &__info-block__title {
+    font-size: 20px;
+    line-height: 1.35;
+    font-family: "Geometria ExtraBold";
+    font-weight: 700;
+  }
+  &__info-block__descr {
+    margin-top: 14px;
+  }
+}
