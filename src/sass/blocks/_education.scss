@@ -1,0 +1,75 @@
+.education {
+  padding: 75px 0 45px 0;
+
+  background-color: #f5f4f0;
+  &__title {
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+    font-family: "Geometria ExtraBold";
+  }
+  &__wrapper {
+    display: flex;
+    margin-top: 50px;
+  }
+
+  &__image {
+    margin: 0 auto;
+    &-1 {
+      background-image: url("../img/education/javascript.svg");
+      background-repeat: no-repeat;
+      width: 100px;
+      height: 100px;
+      background-size: contain;
+    }
+    &-2 {
+      background-image: url("../img/education/php.svg");
+      background-repeat: no-repeat;
+      width: 100px;
+      height: 100px;
+      background-size: contain;
+    }
+    &-3 {
+      background: url("../img/education/nodejs.svg");
+      background-repeat: no-repeat;
+      width: 100px;
+      height: 100px;
+      background-size: contain;
+    }
+    &-4 {
+      background-image: url("../img/education/python.svg");
+      background-repeat: no-repeat;
+      width: 100px;
+      height: 100px;
+      background-size: contain;
+    }
+    &-5 {
+      background-image: url("../img/education/ccs.svg");
+      background-repeat: no-repeat;
+      width: 140px;
+      height: 140px;
+      background-size: contain;
+    }
+    &-6 {
+      background-image: url("../img/education/ruby.png");
+      background-repeat: no-repeat;
+      width: 140px;
+      height: 140px;
+      background-size: contain;
+    }
+    &-7 {
+      background-image: url("../img/education/java.png");
+      background-repeat: no-repeat;
+      width: 140px;
+      height: 140px;
+      background-size: contain;
+    }
+  }
+  &__descr {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 25px;
+    font-family: "Geometria ExtraBold";
+  }
+}
