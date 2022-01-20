@@ -1,0 +1,26 @@
+.practice {
+  padding-top: 120px;
+  &__wrapper {
+    display: flex;
+    align-items: center;
+  }
+  &__item {
+    margin-left: 185px;
+    max-width: 460px;
+    .title {
+      text-align: initial;
+    }
+  }
+  &__item-descr {
+    font-size: 18px;
+    margin-top: 20px;
+    line-height: 1.55;
+  }
+  &__image {
+    background-image: url("../img/practice.png");
+    background-repeat: no-repeat;
+    max-width: 100%;
+    min-height: 550px;
+    background-size: contain;
+  }
+}
