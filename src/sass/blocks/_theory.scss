@@ -23,4 +23,17 @@
     min-height: 550px;
     background-size: contain;
   }
+  &__acces {
+    border: 5px solid #ffc508;
+    max-width: 880px;
+    padding: 60px;
+    margin: 0 auto;
+    color: $main-color;
+    font-size: 20px;
+    line-height: 1.4;
+    font-weight: 700;
+    font-family: "Geometria Bold";
+    letter-spacing: 0.6px;
+    text-align: center;
+  }
 }
